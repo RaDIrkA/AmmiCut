@@ -1,0 +1,280 @@
+
+/* ==== Scroll down to find where to put your styles :) ==== */
+
+/*  HTML5 ✰ Boilerplate  */
+
+span, object,
+h1, h2, h3, h4, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, sub, sup, var, b, i, dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+hgroup, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+a:hover, a:active { outline: none; }
+
+small { font-size: 11px; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               Your styles !                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+				/*	FOOTER*/
+.footer-containerx {border-top: 1px solid #000; margin:-20px auto; position:relative; display:block;top:0px;}
+.footer-containerx h6 { font-family:Georgia, "Times New Roman", Times, serif; font-weight:100; color:#000; letter-spacing:0.7px;font-size:10px; position:absolute;top:-20px;border-bottom:solid 1px #ccc;
+-webkit-box-shadow: 1px 10px 16px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 10px 16px -6px rgba(0,0,0,0.75);
+-ms-box-shadow:1px 10px 16px -6px rgba(0,0,0,0.75);
+box-shadow: 1px 10px 16px -6px rgba(0,0,0,0.75);
+}
+.footer-containerx h6 a {color:#000;text-decoration:none;}
+.footer-containerx h6 a:hover {color:#00F;text-decoration:underline;}
+
+.footer-containerx h5 { font-family:Georgia, "Times New Roman", Times, serif; font-weight:100; letter-spacing:0.7px;font-size:10px;top:10px; position:relative; float:left;left:855px;}
+
+.footer-containerx h5 a { text-decoration:none;color:black;}
+.footer-containerx h5 a:hover {color:#00F;}
+
+		/*	FOOTER*/
+
+.telo-kontakt {width: 960px; height:800px; position:relative;  margin:0 auto; }
+.mapa {position:absolute;border: 6px solid #ccc;width:425px; height:350px;top:20px;right:-60px;}
+.mapa-info {position:absolute;border: 6px solid #ccc;width:415px; height:150px;top:420px;right:-60px; padding:10px;font:13px/1.231 sans-serif; *font-size:small;}
+
+#contact-form {
+	background-color:#fff;font:13px/1.231 sans-serif; *font-size:small;
+	width:340px;
+	padding:20px;
+	margin:25px auto;left:-150px;
+	border: 6px solid #ccc;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	position:relative;
+}
+
+#contact-form h1 {
+	font-size:22px;
+}
+
+#contact-form h2 {
+	margin-bottom:15px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+	font-size:15px;
+	margin-bottom:2px;
+}
+
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+	width:340px;
+	border: 1px solid #CEE1E8;
+	margin-bottom:20px;
+	padding:4px;
+}
+
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+	border: 1px solid #AFCDD8;transition:ease 0.9s all;
+	background-color:#EBF2F4;
+}
+
+#contact-form textarea {
+	height:150px;
+	resize: none;
+}
+
+#contact-form label {
+	display:block;
+}
+
+#contact-form .required {
+	font-weight:bold;
+	color:#F00;	
+}
+
+#contact-form #submit-button {
+	width: 100px;
+	background-color:#333;
+	color:#FFF;
+	border:none;
+	display:block;
+	float:right;
+	margin-bottom:0px;
+	margin-right:6px;
+	background-color:#8FB5C1;
+	-moz-border-radius:8px;
+}
+
+#contact-form #submit-button:hover {
+	background-color: #A6CFDD;
+}
+
+#contact-form #submit-button:active {
+	position:relative;
+	top:1px;
+}
+
+#contact-form #loading {
+	width:32px;
+	height:32px;
+	background-image:url(../img/loading.gif);
+	display:block;
+	position:absolute;
+	right:130px;
+	bottom:16px;
+	display:none;
+}
+
+#errors {
+	border:solid 1px #E58E8E;transition:ease 0.9s all;
+	padding:10px;
+	margin:25px 0px;
+	display:block;
+	width:320px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 285px center;
+	display:none;
+}
+
+#errors li {
+	padding:2px;transition:ease 0.9s all;
+	list-style:none;	
+}
+
+#errors li:before {
+	content: ' - ';	
+}
+
+#errors #info {
+	font-weight:bold;
+}
+
+#errors #info:before {
+	content: '';	
+}
+
+#success {
+	border:solid 1px #83D186;transition:ease 0.9s all;
+	padding:25px 10px;
+	margin:25px 0px;
+	display:block;
+	width:320px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background:#D3EDD3 url(../img/accepted_48.png) no-repeat 285px center;
+	font-weight:bold;
+	display:none;
+}
+
+#errors.visible, #success.visible {
+	display:block;	
+}
+
+#req-field-desc {
+	font-style:italic;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow:none;
+}
+
+/* Normalize placeholder styles */
+
+/* chrome, safari */
+::-webkit-input-placeholder {
+	color:#CCC;
+	font-style:italic;
+}
+
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color:#CCC;
+	font-style:italic;
+}
+
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  { 
+	color:#CCC;
+	font-style:italic;
+}
+
+
+
+
